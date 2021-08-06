@@ -9,6 +9,17 @@ To complete this project, the following softwares were used:
 
 Check **requirements.txt** file for more information
 
+## Software Installation
+The **requirements.txt** file shows the software(python library) version to work with. On your terminal(**Git Bash**), you can start by installing the software(if need be) using the command below:
+```
+pip install -r requirements.txt
+```
+Then proceed by running:
+```
+python bikeshare.py
+```
+**Note:** Ensure you are on the bikeshare-project working directory before running the commands above.
+
 ## Bike Share Data
 Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
 
@@ -56,14 +67,3 @@ The three city dataset files:
 * chicago.txt
 * new york.txt
 * washington.txt
-
-## Requirements.txt File
-The **requirements.txt** file shows the software(python library) version to work with. On your terminal(**Git Bash**), you can start by installing the software(if need be) using the command below:
-```
-pip install -r requirements.txt
-```
-Then proceed by running:
-```
-python bikeshare.py
-```
-**Note:** Ensure you are on the bikeshare-project working directory before running the commands above.
