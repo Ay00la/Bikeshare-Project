@@ -4,7 +4,7 @@ import click
 import pandas as pd
 import numpy as np
 
-
+# Removes any warning messages when running code
 pd.set_option('mode.chained_assignment', None)
 
 def filter_day(city, day):
