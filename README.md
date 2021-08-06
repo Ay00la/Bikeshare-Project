@@ -4,7 +4,7 @@ In this project, I used Python to explore data related to bike share systems for
 ## Software Used
 To complete this project, the following softwares were used:
 * Python 3.8, NumPy, and Pandas installed using Anaconda
-* Atom text editor
+* Text editor(**Atom**)
 * A terminal application (**Git Bash**)
 
 Check **requirements.txt** file for more information
