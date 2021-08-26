@@ -1,6 +1,9 @@
 # Explore US Bikeshare Data
 ## Project Overview
-In this project, I used Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I wrote code to import the data and answer interesting questions about it by computing descriptive statistics. I wrote a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+In this project, Python was used to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. The script was written to import bikeshare data and answer interesting questions about it by computing descriptive statistics. It takes in raw input to create an interactive experience in the terminal to present these statistics.
+
+Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
+
 ## Software Used
 To complete this project, the following softwares were used:
 * Python 3.8, NumPy, and Pandas installed using Anaconda
@@ -11,6 +14,7 @@ Check **requirements.txt** file for more information
 
 ## Software Installation
 The **requirements.txt** file shows the software(python library) version to work with. On your terminal(**Git Bash**), you can start by installing the software(if need be) using the command below:
+
 ```
 pip install -r requirements.txt
 ```
@@ -21,9 +25,8 @@ python bikeshare.py
 **Note:** Ensure you are on the bikeshare-project working directory before running the commands above.
 
 ## Bike Share Data
-Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
 
-In this project, I use data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
+In this project, Data was provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
 **Note:** Sample bikeshare data have been provided.
 
@@ -43,7 +46,7 @@ The Chicago and New York City files also have the following two columns:
 ## Statistics Computed
 In this project, I wrote python code to provide the following information:
 
-**1. Popular times of travel (i.e., occurs most often in the start time)**
+**1. Popular times of travel (i.e., the start time occurs most often )**
 * most common hour of day
 
 **2. Popular stations and trip**
